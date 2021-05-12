@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_round_button"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/cardimg"
+            android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack"
+                android:layout_margin="5dp"
+                android:justificationMode="inter_word"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/desc1"/>
+        </LinearLayout>
+
+
+</RelativeLayout>

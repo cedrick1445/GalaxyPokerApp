@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="7dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="7dp"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/card1"
+                android:background="@drawable/round_button">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/background"
+                    >
+                    <TextView
+                        android:id="@+id/guidename"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:text="Title"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorLigthYellow"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/guidedesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:maxLines="2"
+                        android:text="Description"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12dp"
+                        android:textStyle="italic"
+                        android:text="-----View More-----"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+</LinearLayout>
